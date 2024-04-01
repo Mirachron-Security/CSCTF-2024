@@ -1,0 +1,43 @@
+name: "WHOis #2"
+author: "Marin Radu"
+category: "OSINT"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  We'll look into more things specific to this CTF's website. <br>
+  Can you find the disallowed entries? <br>
+  Did you know they are used for actual **robots**?!
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{w17h_gr34t_sk1ll5_c0m35_4_w3ll-de53rv3d_fl46}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

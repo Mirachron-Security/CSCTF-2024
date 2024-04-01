@@ -1,0 +1,52 @@
+name: "Uncommon"
+author: "Marin Radu"
+category: "Misc"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Some puzzles just require uncommon methods. <br>
+  Some might require some tools, others can be solved online.
+
+  Wanna test your skills? <br>
+  See what can you make of an image with mirrored text. <br>
+  Remember that a puzzle can have parts <i>hidden</i> to the human eye. <br>
+
+  The flag is case-sensitive with lowercase letters; <br>
+  Add underscore between the words.
+
+  <br>
+
+  Flag format: **`CSCTF{some_message}`**
+  
+  <br>
+
+files:
+  - files/image.png
+
+flags:
+  - CSCTF{puzzling_sollution}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

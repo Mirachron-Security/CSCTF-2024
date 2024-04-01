@@ -1,0 +1,53 @@
+name: "Customer support"
+author: "Marin Radu"
+category: "Misc"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  <br>
+
+  Did you check our ticketing system? It is on the <a href="https://discord.gg/GucSYEKvHP" target="_blank">Discord server</a>!
+
+  Here is how it works: if you have a problem with a challenge,
+  with the CTF's infrastructure, or something else related to the CSCTF 2024,
+  you can open a ticket that will allow you to talk with an admin.
+
+  Don't use this excessively, or it will get you banned!
+
+  Also, there is a flag waiting for you in the afferent channel.
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+
+  <br>
+
+flags:
+  - CSCTF{if_you_have_a_problem_you_can_count_on_me}
+
+tags:
+  - easy
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

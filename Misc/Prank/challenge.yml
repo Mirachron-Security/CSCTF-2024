@@ -1,0 +1,50 @@
+name: "Prank"
+author: "Marin Radu"
+category: "Misc"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  A colleague of mine sent me this file. 
+  He said a nice message will appear if I run it on my Windows computer. <br>
+
+  <p style="text-align:center;"><img class="center" src="https://i.imgur.com/7e5DCsg.jpeg" style="width: 60%;"/></p>
+
+  I ran it, but I can't see any messages. <br>
+  Can you help me?
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/chall.vbs
+
+flags:
+  - CSCTF{y0u_Ar3_n07_4n_1d10t}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

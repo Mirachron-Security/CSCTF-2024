@@ -1,0 +1,47 @@
+name: "Breached"
+author: "Marin Radu"
+category: "OSINT"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  This infamous site was used to host various leaked data and hacks. 
+  It was known as a black hat hacking crime forum and acted as an alternative and later successor to RaidForums following its shutdown and seizure in 2022. <br>
+  **This site has been seized by the FBI**. <br>
+
+  <p style="text-align:center;"><img class="center" src="https://i.imgur.com/9RAOeY2.jpeg" style="width: 100%;"/></p>
+
+  Can you figure out the owner's **real name** and **age**?
+
+  <br>
+
+  Flag format: **`CSCTF{Firstname_Middlename_Lastname_age}`**
+  
+  <br>
+
+flags:
+  - CSCTF{Conor_Brian_Fitzpatrick_19}
+
+tags:
+  - easy
+
+state: visible
+
+attempts: 10
+
+# topics:
+#   - 
+#   - 
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

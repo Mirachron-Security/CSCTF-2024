@@ -1,0 +1,47 @@
+name: "ChronosPK 2"
+author: "Marin Radu"
+category: "OSINT"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  One of my pentesting repositories contains a flag. <br>
+  Or it used to, at some point in time... <br>
+  Anyway, it's your task to find it and submit it for points. 
+
+  Make sure to pay attention to the flag's characters.
+
+  <p style="text-align:center;"><img class="center" src="https://avatars.githubusercontent.com/u/93029180?v=4" style="width: 80%;"/></p>
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{d0n't_hid3_your_5ecr375_1n_GIThub}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

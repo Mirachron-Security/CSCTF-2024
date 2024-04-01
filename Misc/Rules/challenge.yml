@@ -1,0 +1,45 @@
+name: "Rules"
+author: "Marin Radu"
+category: "Misc"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Of course we have rules! <br>
+  We listed them in one of the Discord channels. <br>
+  Read both <code><b>GENERAL RULES</b></code> and <code><b>GAME RULES</b></code> 🧾! <br>
+
+  What? You haven't joined the <a href="https://discord.gg/GucSYEKvHP" target="_blank">Discord server</a>? Enter now!!!
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{you-got-to-know-the-rules}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

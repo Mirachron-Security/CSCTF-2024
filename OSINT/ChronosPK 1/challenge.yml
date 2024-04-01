@@ -1,0 +1,43 @@
+name: "ChronosPK 1"
+author: "Marin Radu"
+category: "OSINT"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  ChronosPK is just a pseudonim in the cybersecurity world. 
+  But, in order to attract more followers, I created a social media account on a popular platform. 
+  If you find the account, make sure to follow me! <br>
+
+  <br>
+
+  Flag format: **`CSCTF{https://domain/username}`**
+  
+  <br>
+
+flags:
+  - CSCTF{https://instagram.com/chronos_security}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

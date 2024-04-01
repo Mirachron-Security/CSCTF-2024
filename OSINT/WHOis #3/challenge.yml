@@ -1,0 +1,51 @@
+name: "WHOis #3"
+author: "Marin Radu"
+category: "OSINT"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I will now ask you for more information about my domain (<a href="https://chronossec.site" target="_blank"><b>chronossec.site</b></a>). <br>
+  You have to put together the results to get the flag. <br>
+  Got it? Then search the following: <br>
+  - number of mail records
+  - date when the domain was registered (`DD_MM_YY`)
+  - ASN number (not code)
+  - registrar's domain name
+  - number of open ports
+  - server location (country in lowercase)
+
+  <br>
+
+  Flag format: **`CSCTF{nr_date_nr_domain_nr_location}`**
+  
+  <br>
+
+flags:
+  - CSCTF{3_03_09_2022_13335_namecheap.com_3_canada}
+  - CSCTF{3_03_09_2022_13335_namecheap.com_4_canada}
+  - CSCTF{3_03_09_2022_13335_namecheap.com_13_canada}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

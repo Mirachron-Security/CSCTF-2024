@@ -1,0 +1,45 @@
+name: "Simple quiz"
+author: "Marin Radu"
+category: "Misc"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Can you believe that I used Google Forms to hide a flag? <br>
+  Look through <a href=https://docs.google.com/forms/d/e/1FAIpQLSdCbeRlZbLTWctH98ZRC9KMqjAvAu2uYQck_nARbDby8eKDRw/viewform target="_blank">**this document**</a>.
+
+  You don't have to be a pro hacker to figure this one out. <br>
+  <img src="https://i.imgur.com/bPZ5f4u.jpg" style="width: 100%;">
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{4N07h3R_D4Y_4n07h3r_ch4LL3N93_4n07H3r_W1n}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

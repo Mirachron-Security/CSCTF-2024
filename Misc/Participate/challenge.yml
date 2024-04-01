@@ -1,0 +1,46 @@
+name: "Participate"
+author: "Marin Radu"
+category: "Misc"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I've got a few questions for you. Answer them <a href=https://docs.google.com/forms/d/e/1FAIpQLSe9bfsGlOlH81Ci0I3efmzXMhQOD8T5TX10GTodcw7Z7HlxiQ/viewform>**here**</a>. <br>
+  Don't forget to use your <u>analytical</u> thinking to solve the challenge!
+
+  <p style="text-align: center;">
+    <img src="https://i.imgur.com/yDGb3Wi.jpeg" style="width: 100%;">
+  </p>
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{c4n'7_f00l_7h353_6uy5}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

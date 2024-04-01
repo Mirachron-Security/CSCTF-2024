@@ -1,0 +1,49 @@
+name: "Cyber Golan"
+author: "Marin Radu"
+category: "OSINT"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  A friend of mine snapped a picture of a cybersecurity car 
+  and provoked me to find out where the car was! <br>
+  To make sure that I really knew the location, he also demands 
+  I send him the **3 words** that describe the car's exact location.
+
+  For example, he said that he was exactly at `wires.distract.torch`. 
+  To help me out, he mentioned that the first word that describes the car's location starts with the letter "d".
+
+  <br>
+
+  Flag format: **`CSCTF{what.three.words}`**
+  
+  <br>
+
+files:
+  - files/logan_golan.jpg
+
+flags:
+  - CSCTF{drill.curious.stands}
+
+# attempts: 10
+
+tags:
+  - hard
+
+state: visible
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

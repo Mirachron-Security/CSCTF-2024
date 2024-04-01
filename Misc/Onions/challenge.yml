@@ -1,0 +1,50 @@
+name: "Onions"
+author: "Marin Radu"
+category: "Misc"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Much like the craft of steganography hides secrets in plain view, 
+  onions also hide their essence behind layers, each one peeling away to reveal more. <br>
+
+  Still didn't get it? Ok, check the attached file. <br>
+  <!-- <p style="text-align:center;"><img class="center" src="https://i.imgur.com/MsKHFtl.png" style="width: 100%;"/></p> -->
+
+  I might have used some <i>steg</i>anography, but can you find the flag I <i>hide</i>?
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/the_onion_resolver.png
+
+flags:
+  - CSCTF{3x7r4_l4y3r5_0f_53cur17y}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

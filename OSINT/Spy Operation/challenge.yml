@@ -1,0 +1,58 @@
+name: "Spy Operation"
+author: "Marin Radu"
+category: "OSINT"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  🕵️‍♂️ Welcome to **Operation Midnight Pursuit**, a challenge where you step into the shoes of a covert operative in the year 2013, working for a three-letter American agency. Your mission: unravel the enigma surrounding a man known only as Gualtieri.
+
+  🚗 Picture the year 2012, a time when a Porsche Panamera sliced through city streets under the control of Gualtieri. Who is he, and what mysteries does he hold? Your objective is clear: extract **Gualtieri's phone number and full address** linked to that pivotal year.
+
+  🔍 Operating under the radar, you must rely on Open Source Intelligence (OSINT) to reconstruct Gualtieri's past. Your digital acumen will be crucial as you traverse online archives, social networks, and virtual trails. Think like a detective, connecting overlooked dots.
+
+  🌆 The city is a vault of concealed truths, but your determination will pry open its doors. With cunning and curiosity, decode the life of Gualtieri in 2012. Your skills will be tested, your resolve challenged - are you up for the task?
+
+  🗺️ Embark on this uncharted journey, armed with tools and ethics. Remember, this isn't just a hunt; it's a quest for revelation. The pursuit starts now; may your searches be swift and your insights sharper.
+
+  *Your success in this mission is imperative. Best of luck, operative.*
+
+  <br>
+
+  Flag format: **`CSCTF{PhoneNumber_StreetName_BuildingNumber}`**
+  
+  <br>
+
+  Example:
+  - Phone Number: `1234567890`
+  - Street Name: `Hampton Cove Way SE`
+  - Building Number: `123`
+  - **Flag: `CSCTF{1234567890_HamptonCoveWaySE_123}`**
+  
+  <br>
+
+flags:
+  - CSCTF{2565413630_BrookParkDrSE_3000}
+
+tags:
+  - medium
+
+state: visible
+
+# attempts: 20
+
+# topics:
+#   - 
+#   - 
+
+hints:
+ - {
+       content: "Don't forget about the learning resources provided in the Discord server.",
+       cost: 10
+   }

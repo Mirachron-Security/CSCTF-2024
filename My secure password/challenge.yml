@@ -1,0 +1,44 @@
+name: "My secure password"
+author: "Marin Radu"
+category: "Linux"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  You just entered a Linux machine while doing a pentest.<br>
+  Out of curiosity, you extract the system files that
+  allow you to see the users and their encrypted passwords.
+
+  Your task is to crack the hashes and submit the **longest password**. <br>
+  It might also take you a long time to crack them. 
+
+  <br>
+
+  Flag format: **`CSCTF{password}`**
+  
+  <br>
+
+files:
+  - files/chall.zip
+
+flags:
+  - CSCTF{manchesterunited}
+
+tags:
+  - medium
+
+state: visible
+
+attempts: 10
+   
+# topics:
+#   - 
+#   - 
+
+

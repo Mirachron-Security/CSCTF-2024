@@ -1,0 +1,60 @@
+name: "Shopping list"
+author: "Stratulat Dragoș"
+category: "Misc"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/stratulat-dragos-6b9a09227" target="_blank">Author: Slt. Ing. Stratulat Dragoș</a></strong></p>
+
+  Connect to this **secure** application that stores your shopping list: <br>
+
+  > `nc chal.chronossec.site 30190`
+  <!-- > `nc challenge.chronossec.site 30190` -->
+
+  <br>
+
+  Try different inputs to trigger an error and find the module used. 
+  Do you know any CVE that might help?
+  
+  <br>
+  
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+  Kudos to <a href="https://www.linkedin.com/in/stratulat-dragos-6b9a09227" target="_blank"><b>Slt. Ing. Stratulat Dragoș</b></a> for the amazing challenge! <br>
+  This exercise was used in **CyDEX-2023**. Enjoy!
+
+  <br>
+
+flags:
+  - CSCTF{y3T_@n0Th3R_Rc3_vUln3R@B1L17Y}
+
+tags:
+  - hard
+
+state: visible
+
+hints:
+ - {
+      content: '
+        Hmm… It seems that the input format is a json. Try sending an incorrect payload to see what happens. <br>
+        Also, I think that I read somewhen about this PyYaml module…
+        '
+      ,
+      cost: 50
+   }
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# topics:
+#   - 
+#   - 
