@@ -1,0 +1,52 @@
+name: "Dynamic loader"
+author: "Marin Radu"
+category: "Pwn"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I bet you cannot monitor every file and process on your computer! <br>
+  What if viruses spawn and infect your device?
+
+  Do you think you are safe? Can you be dynamic enough with your tools?
+
+  I will give you a simple program that only shows a loading bar. <br>
+  Nothing bad, **trust me**!
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{d0N-t_rUn_3XeCut@bl3s_y0U_hAV3n-t_c0mpiL3D}
+
+files:
+  - files/vuln
+
+tags:
+  - medium
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

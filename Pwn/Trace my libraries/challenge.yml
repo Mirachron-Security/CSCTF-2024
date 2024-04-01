@@ -1,0 +1,46 @@
+name: "Trace my libraries"
+author: "Marin Radu"
+category: "Pwn"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  You've stumbled upon a mysterious binary that seems to be making some suspicious library calls. 
+  Your task is to analyze its behavior and uncover the hidden secrets within. <br>
+  Can you unveil the function calls this binary makes?
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/vuln
+
+flags:
+  - CSCTF{l3t.s_trAc3_the_libr@r13S_______________________bUT_w3_n3ED_the_bIg.piCtUr3}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

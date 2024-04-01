@@ -1,0 +1,50 @@
+name: "Math Master"
+author: "Stratulat Dragos"
+category: "Programming"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  Can you please help me with these math operations?
+
+  > `nc chal.chronossec.site 30080`
+  <!-- > `nc challenge.chronossec.site 30080` -->
+
+  <br>
+
+  Dynamic flag ahead! View more <a href="https://ctf.chronossec.site/dynamic_flags" target="_blank"><b>here</b></a>.<br>
+  Flag format: **`CSCTF{hash}`**
+  
+  <br>
+
+  Kudos to <a href="https://www.linkedin.com/in/stratulat-dragos-6b9a09227" target="_blank"><b>Slt. Ing. Stratulat Dragoș</b></a> for the amazing challenge! <br>
+  This exercise was used in **CyDEX-2023**. Enjoy!
+
+  <br>
+
+flags:
+  - CSCTF{hash-that-changes-every-5-minutes}
+
+tags:
+  - medium
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

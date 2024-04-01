@@ -1,0 +1,46 @@
+name: "Pwntools"
+author: "Marin Radu"
+category: "Programming"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Connect to my server, answer the questions, and get the flag. <br>
+  You have to automate this task. 😉
+
+  > `nc chal.chronossec.site 30210`
+  <!-- > `nc challenge.chronossec.site 30210` -->
+
+  <br>
+
+  Dynamic flag ahead! View more <a href="https://ctf.chronossec.site/dynamic_flags" target="_blank"><b>here</b></a>.<br>
+  Flag format: **`CSCTF{hash}`**
+  
+  <br>
+
+flags:
+  - CSCTF{hash-that-changes-every-5-minutes}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

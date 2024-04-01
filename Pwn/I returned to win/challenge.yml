@@ -1,0 +1,51 @@
+name: "I returned to win"
+author: "Marin Radu"
+category: "Pwn"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  "I *returned to win* this competition", said one of my colleagues. <br>
+  "I was so close to winning, but still didn't succed", he continued. <br>
+
+  Try your luck with the given binary, and when you figure it out, connect to the actual server:
+  
+  > `nc chal.chronossec.site 30220`
+  <!-- > `nc challenge.chronossec.site 30220` -->
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/vuln
+
+flags:
+  - CSCTF{w0W_y6u_r3al1y_g0T_1T_anD_th3_f1@g_!S_y0urs}
+
+tags:
+  - medium
+
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

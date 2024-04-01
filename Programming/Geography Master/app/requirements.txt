@@ -1,0 +1,2 @@
+countryinfo==0.1.2
+pytz==2020.4

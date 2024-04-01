@@ -1,0 +1,54 @@
+name: "Geography Master"
+author: "Stratulat Dragoș"
+category: "Programming"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/stratulat-dragos-6b9a09227" target="_blank">Author: Slt. Ing. Stratulat Dragoș</a></strong></p>
+
+  Help me pass my geography quiz, please! 
+  I don't think it is called cheating if you create a script for it ... 
+
+  My professor created a server that asks for capitals. Check it out here:
+
+  > `nc chal.chronossec.site 30070`
+  <!-- > `nc challenge.chronossec.site 30070` -->
+
+  <br>
+
+  Dynamic flag ahead! View more <a href="https://ctf.chronossec.site/dynamic_flags" target="_blank"><b>here</b></a>.<br>
+  Flag format: **`CSCTF{hash}`**
+  
+  <br>
+
+  Kudos to <a href="https://www.linkedin.com/in/stratulat-dragos-6b9a09227" target="_blank"><b>Slt. Ing. Stratulat Dragoș</b></a> for the amazing challenge! 
+
+  <br>
+
+flags:
+  - CSCTF{hash-that-changes-every-5-minutes}
+
+tags:
+  - medium
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

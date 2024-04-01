@@ -1,0 +1,48 @@
+name: "Moooooore"
+author: "Marin Radu"
+category: "Pwn"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  How much is too much? Do you really need more? <br>
+  Connect to the following server and see for yourself:
+ 
+  > `nc chal.chronossec.site 30100`
+  <!-- > `nc challenge.chronossec.site 30100` -->
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/vuln
+
+flags:
+  - CSCTF{7h3_m0r3_y0u_kn0w_7h3_l355_y0u_kn0w}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

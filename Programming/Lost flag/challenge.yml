@@ -1,0 +1,46 @@
+name: "Lost flag"
+author: "Marin Radu"
+category: "Programming"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  <br>
+
+  I lost my flag while laying out random QR codes... <br>
+  I would really appreciate your help. Thanks!
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+
+  <br>
+
+flags:
+  - CSCTF{g0od_ch01c3_budDy}
+
+files:
+  - files/qr_image.png
+
+tags:
+  - medium
+
+state: visible
+
+hints:
+ - {
+       content: "Take in consideration the number of QR codes, their size, and the border between them.",
+       cost: 10
+   }
+
+# attempts: 10
+
+# topics:
+#   - 
+#   - 
