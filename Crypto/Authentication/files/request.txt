@@ -1,0 +1,8 @@
+GET /api/resource HTTP/1.1
+Host: example.com
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3IiOiJDaHJvbm9zUEsiLCJyb2xlIjoiYWRtaW4iLCJmbGFnIjoiQ1NDVEZ7ZGVDMGRpbmdfYV9KUzBOX3QwazNufSIsImlhdCI6MjYyNjI2MjYyNn0.nBK8NZKI1tJ79oEBTOC5LkmCZkwbCrZQY-VlrbEm0WU
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Etag: W/"3f78-ErB3eLav5TnyNdUXV8VYcsgkBg8"
+Date: Sun, 01 Jan 2024 01:01:00 GMT

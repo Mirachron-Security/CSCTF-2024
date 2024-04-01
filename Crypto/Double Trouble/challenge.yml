@@ -1,0 +1,55 @@
+name: "Double Trouble"
+author: "Marin Radu"
+category: "Crypto"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  One is a method of transmitting text information as a series of 
+  on-off tones, lights, or clicks, while the other is a number system.
+
+  What can you make out of it? <br>
+  Download the file and find out!
+
+  Note: <br>
+  Lowercase letters, words separated by "`_`".
+
+  <br>
+
+  Flag format: **`CSCTF{original_message}`**
+  
+  <br>
+
+files:
+  - files/file.txt
+
+flags:
+  - {
+      type: "static",
+      content: "CSCTF{b07h_m0r53_c0d3_4nd_b1n4ry_u53_0nly_2_ch4r4c73r5}",
+      data: "case_insensitive",
+    }
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

@@ -1,0 +1,59 @@
+name: "APT Hunting"
+author: "Roșu Darius"
+category: "Forensics"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/darius-rosu-922961233/">Author: Roșu Darius</a></strong></p>
+
+  Analyse the binary and find the answers for the questions below.
+
+  1.Identify the APT number associated with the cybergang group.
+  2.Determine whether the binary is a trojan, ransomware, or other types of malware.
+  3.Identify the IP address of the malware's command and control server.
+  4.Trace the malware to its country of origin based on digital evidence and indicators within the binary.
+  5.Determine the year when the cybercriminal group associated with the malware first became active in cyber espionage.
+  
+  <br>
+
+  Flag in case insensitive.
+
+  <br>
+
+  Flag format: **`CSCTF{answer1_answer2_answer3_answer4_answer5}`**
+
+  <br>
+
+files:
+  - files/password_is_infected.zip
+
+flags:
+    - {
+      type: "static",
+      content: "CSCTF{APT28_Backdoor_210.48.231.182_russia_2004}",
+      data: "case_insensitive",
+    }
+
+tags:
+  - easy
+
+state: visible
+
+
+hints:
+ - {
+      content: '
+        Consider using a well-known online platform that specializes in analyzing and identifying characteristics of suspicious files and URLs. <br>
+        '
+      ,
+      cost: 20
+   }
+
+# topics:
+#   - 
+#   - 

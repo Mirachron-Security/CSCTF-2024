@@ -1,0 +1,55 @@
+name: "Hashes"
+author: "Marin Radu"
+category: "Crypto"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  This is a simple quest: I need you to calculate some hashes. Easy, right?
+
+  Firstly, calculate the MD5 hash of the string "CSCTF". <br>
+  Then, put that hash in a file called "ctf.txt". <br>
+  Once you do that, calculate the SHA256 hash of the new file **`:)`**. <br>
+  
+  Next, crack the following hash: `6e6a4cd1b4c953e652628742c9bf6e2e9a544b5d` 
+  and calculate the SHA1 hash of the resulted string. <br>
+  
+  Finally, put the resulted hash on a new line inside the earlier "ctf.txt", 
+  then calculate the SHA512 of the new file. This will be wrapped in the flag format.
+  
+  <br>
+
+  Flag format: **`CSCTF{SHA512_hash}`**
+  
+  <br>
+
+flags:
+    - {
+      type: "static",
+      content: "CSCTF{66eb9f5349ca95dca65a97c2f3d64fa3611dd79b5c8f8a871c3e1bd5e2ed96ba39ed60061b4f7f694994b039961d1c07c661a80002dd82f5f1ccebc6a057899b}",
+      data: "case_insensitive",
+    }
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

@@ -1,0 +1,52 @@
+name: "Signed Flask"
+author: "Marin Radu"
+category: "Crypto"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I signed my flask and put it online! How do you like it? <br>
+  I am just joking - you are not allowed! 
+
+  Just in case I change my mind:
+  > http://chal.chronossec.site:30180
+  <!-- > http://challenge.chronossec.site:30180 -->
+
+  If you think you can `rock` my application, you are wrong. My secrets are secured! 
+  Now remove the signature and you are golden!
+
+  <br>
+
+  Flag format: **`CSCTF{SECRET_KEY}`**
+  
+  <br>
+
+files:
+  - files/main.py
+
+flags:
+  - CSCTF{98765432123456789}
+
+tags:
+  - medium
+
+state: visible
+
+attempts: 10
+
+# topics:
+#   - 
+#   - 
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

@@ -1,0 +1,51 @@
+name: "Calculator"
+author: "Marin Radu"
+category: "Linux"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I hid the flag in `flag.txt`. Good luck getting it! <br>
+  I hope you are not afraid of needles.
+  
+  > `nc chal.chronossec.site 30020`
+  <!-- > `nc challenge.chronossec.site 30020` -->
+
+  <br>
+
+  Injections involved!
+
+  <p style="text-align:center;"><img class="center" src="https://i.imgur.com/nxZtjnp.jpg" style="width: 100%;"/></p>
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{well_d0ne_kidd0}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

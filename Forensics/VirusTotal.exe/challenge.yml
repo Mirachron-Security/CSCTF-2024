@@ -1,0 +1,49 @@
+name: "VirusTotal.exe"
+author: "Marin Radu"
+category: "Forensics"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I guarantee that this file is virus-free! <br>
+  You can trust me! It won't harm you! 
+
+  Just <i>open</i> it <i>with</i>...  
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/TOTALLY-NOT-A-VIRUS.exe
+
+flags:
+  - CSCTF{yes_it_is_that_easy...for_now}
+
+tags:
+  - easy
+
+state: visible
+
+# files:
+# - 
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

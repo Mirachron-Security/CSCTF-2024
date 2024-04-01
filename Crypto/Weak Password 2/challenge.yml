@@ -1,0 +1,52 @@
+name: "Weak Password 2"
+author: "Marin Radu"
+category: "Crypto"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"">Author: Cujba Mihai</a></strong></p>
+
+  Remember John? Well, it seems like his <u>close</u> friend uses weak passwords as well.
+  He thinks that combining a password from `rockyou.txt` and his own year of birth will create a strong password. 
+
+  His password's hash is `077987b2cfc07b9a84a0007f288e9ed7`. Can you find his password? <br>
+  You already know the password format: `word_year`.  
+
+  <br>
+
+  Flag format: **`CSCTF{password}`**
+  
+  <br> 
+
+  Kudos to <a href=https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"><b>Cujba Mihai</b></a> for the amazing challenge! <br>
+  This exercise was used in <a href=https://learn-it.org/ target="_blank"><b>his learning platform</b></a>. Enjoy!  
+
+  <br>
+
+flags:
+  - CSCTF{dragon_1987}
+
+tags:
+  - easy
+
+state: visible
+
+hints:
+ - {
+      content: "Encode the rockyou.txt file with `latin-1` and choose a year close to John's (his friend is a bit older).",
+      cost: 10
+   }
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# topics:
+#   - 
+#   - 

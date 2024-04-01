@@ -1,0 +1,49 @@
+name: "3.146416102"
+author: "Marin Radu"
+category: "Crypto"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  **π** is my lucky number. It hides so many secrets! <br>
+  While the methods used here are not encryption or hashing,
+  they fall under the category of data transformation or encoding.
+
+  I am sure you will figure out what I'm talking about. <br>
+  Now, connect to my server and get the flag! <br>
+  > http://chal.chronossec.site:30010
+  <!-- > http://challenge.chronossec.site:30010 -->
+
+  <br>
+
+  Dynamic flag ahead! View more <a href="https://ctf.chronossec.site/dynamic_flags" target="_blank"><b>here</b></a>.<br>
+  Flag format: **`CSCTF{hash}`**
+  
+  <br>
+
+flags:
+  - CSCTF{hash-that-changes-every-5-minutes}
+
+tags:
+  - hard
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

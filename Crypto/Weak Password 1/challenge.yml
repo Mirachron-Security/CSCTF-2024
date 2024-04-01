@@ -1,0 +1,52 @@
+name: "Weak Password 1"
+author: "Cujbă Mihai"
+category: "Crypto"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"">Author: Cujba Mihai</a></strong></p>
+
+  Hashed Password: `bb3d5f7c75e608f1eae62935ac104023`.
+
+  Jack, an enthusiastic football fan, has a habit of using `football` in his passwords, alongside his birth year. For instance, if Jack were born in 1900, he would have `1900_football` as his password.
+
+  Your challenge is to determine Jack's password from the hash provided above. 
+
+  <br>
+
+  Flag format : **`CSCTF{password}`**
+  
+  <br>
+
+  Kudos to <a href=https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"><b>Cujba Mihai</b></a> for the amazing challenge! <br>
+  This exercise was used in <a href=https://learn-it.org/ target="_blank"><b>his learning platform</b></a>. Enjoy!  
+
+  <br>
+
+flags:
+  - CSCTF{1993_football}
+
+tags:
+  - easy
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

@@ -1,0 +1,3 @@
+1. Bagi binaru pe virustotal (https://www.virustotal.com/gui/file/3f94b20cb7f4ff55207660649ebbb02679c991fe03efbcb0bd3840fc7f0bd527/community)
+2. Vezi ca e backdoor din detectii, c2c ip din detalii (backdoor ; 210.48.231.182)
+3. Cauti despre turla ca apare peste tot pe virustotal si gasesti https://malpedia.caad.fkie.fraunhofer.de/actor/turla unde se mentioneaza numarul de APT si tara, anul il gasesit daca cauti turla apt pe google (2004 ; APT28 ; RUSSIA)

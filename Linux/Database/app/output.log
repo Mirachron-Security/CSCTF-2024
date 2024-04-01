@@ -1,0 +1,10 @@
+2024-02-06 11:16:50,712 - INFO - [-] Error: Cannot connect to the MySQL server on localhost:9999.
+
+2024-02-06 11:16:50,713 - INFO - Sleeping for 249 seconds until the next interval.
+2024-02-06 11:17:10,552 - INFO - [-] Error: Cannot connect to the MySQL server on localhost:9999.
+
+2024-02-06 11:17:52,319 - INFO - [-] Error: Cannot connect to the MySQL server on localhost:9999.
+
+2024-02-06 11:17:57,609 - INFO - [-] Error: Cannot connect to the MySQL server on localhost:9999.
+
+2024-02-06 11:17:57,609 - INFO - Sleeping for 242 seconds until the next interval.

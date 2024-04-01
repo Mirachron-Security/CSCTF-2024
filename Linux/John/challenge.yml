@@ -1,0 +1,46 @@
+name: "John"
+author: "Marin Radu"
+category: "Linux"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  You have to open the zip archive in order to get the flag. Do you know the password? <br>
+  You can't guess it, and it isn't laying though the bytes. <br>
+  John is your only solution.
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/hidden.zip
+
+flags:
+  - CSCTF{how_did_you_do_that?}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

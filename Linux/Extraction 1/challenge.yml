@@ -1,0 +1,50 @@
+name: "Extraction 1"
+author: "Marin Radu"
+category: "Linux"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Extract the line that doesn't contain the following, in order:
+  - 4 uppercase letters
+  - 6 lowercase letters
+  - 1 digit
+  - 1 uppercase letter
+  - 2 digits
+  - 6 letters
+
+  <br>
+
+  Flag format: **`CSCTF{string}`**
+  
+  <br>
+
+files:
+  - files/file.txt
+
+flags:
+  - CSCTF{FGMQzggbiy3E864BQbpr}
+
+tags:
+  - easy
+
+state: visible
+
+attempts: 10
+
+# topics:
+#   - 
+#   - 
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

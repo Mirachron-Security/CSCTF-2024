@@ -1,0 +1,52 @@
+name: "Magical Bytes 1"
+author: "Marin Radu"
+category: "Forensics"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  How does a computer even know what type of file this is?
+  Do you know how it verifies such things? Does it need a signature of sorts?
+
+  This is the <u>magic of bytes</u>, and you should understand 
+  how simple file types like **PNG**, **GIF** or **JPG** are structured. 
+  Knowing this will help you solve this challenge (and not only).
+
+  When you analyze this file, don't forget to use your <u>head</u>!
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/file.something
+
+flags:
+  - CSCTF{my_file_has_been_s1gned}
+
+tags:
+  - easy
+
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

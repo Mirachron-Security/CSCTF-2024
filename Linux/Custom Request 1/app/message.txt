@@ -1,0 +1,7 @@
+
+Complete the following tasks to get the flag: 
+
+Create a query in the "flag" directory
+    parameter: the application used to build the server 
+    value: the application's version
+

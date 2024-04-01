@@ -1,0 +1,46 @@
+name: "Magical Bytes 2"
+author: "Marin Radu"
+category: "Forensics"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  If you solved **Magical Bytes 1**, this challenge should be quite easy. <br>
+  Good luck! 
+  
+  Totally unrelated, but have I told you that `13` is my lucky number?
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/regular-file.something
+
+flags:
+  - CSCTF{w3ll_d0ne_inve3rt3d_bytes}
+
+tags:
+  - easy
+
+state: visible
+
+hints:
+ - {
+       content: "You can use `dd`: `dd if= of= bs= skip=`.",
+       cost: 50
+   }
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10

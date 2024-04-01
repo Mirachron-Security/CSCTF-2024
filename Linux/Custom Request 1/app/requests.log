@@ -1,0 +1,6 @@
+Expected command: 
+curl http://domain:port/flag?python=3.11.4
+
+AT [0;32m30/Mar/2024 14:29:39[0m FROM [0;32m127.0.0.1[0m
+GET /flag?python=3.11.4 HTTP/1.1
+

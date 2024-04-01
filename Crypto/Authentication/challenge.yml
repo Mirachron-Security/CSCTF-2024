@@ -1,0 +1,47 @@
+name: "Authentication"
+author: "Marin Radu"
+category: "Crypto"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Authentication is a crucial part of online security. 
+  Can you demonstrate your understanding of how websites manage it? <br>
+  I've provided a sample for you to analyze. 
+  Download the file and show me you know your stuff. 
+
+  <br>
+
+  Flag format: **`CSCTF{mesasage}`**
+  
+  <br>
+
+files:
+  - files/request.txt
+
+flags:
+  - CSCTF{deC0ding_a_JS0N_t0k3n}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

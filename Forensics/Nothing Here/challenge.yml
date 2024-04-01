@@ -1,0 +1,53 @@
+name: "Nothing Here"
+author: "Stratulat Dragoș"
+category: "Forensics"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/stratulat-dragos-6b9a09227" target="_blank">Author: Slt. Ing. Stratulat Dragoș</a></strong></p>
+
+  Ole!Tools like ours can't be found anywhere else! <br>
+  Do you know what else you can't find anywhere? The flag! 
+  You might see some obfuscated Viral Bothersome Scripts, but those are harmless! 
+
+  What do you think? Are you up for a challenge?
+
+  Note: old flag format!
+
+  <br>
+
+  Flag format: **`SMCC2024{message}`**
+
+  <br>
+
+  Kudos to <a href="https://www.linkedin.com/in/stratulat-dragos-6b9a09227" target="_blank"><b>Slt. Ing. Stratulat Dragoș</b></a> for the amazing challenge! 
+
+  <br>
+
+flags:
+  - SMCC2024{0bfu$c@tion__h@$_h3r_b3@uty}
+
+tags:
+  - hard
+
+state: visible
+
+files:
+  - "files/Nothing here.doc"
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

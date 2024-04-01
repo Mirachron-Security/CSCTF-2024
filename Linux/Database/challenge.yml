@@ -1,0 +1,53 @@
+name: "Database"
+author: "Marin Radu"
+category: "Linux"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I am looking for the best person to hold <i>`my secret`</i>. <br>
+  Can you help me find it? <br>
+
+  If the answer is *yes*, connect to the server using the following information and capture the flag:
+
+  > user: `remote_user` <br>
+    password: `reader_password` <br>
+    host: `chal.chronossec.site` <br>
+    port: `30050`
+  
+  <!-- > host: `challenge.chronossec.site` <br>
+    port: `30050` -->
+
+  <br>
+
+  Dynamic flag ahead! View more <a href="https://ctf.chronossec.site/dynamic_flags" target="_blank"><b>here</b></a>.<br>
+  Flag format: **`CSCTF{hash}`**
+  
+  <br>    
+
+flags:
+  - CSCTF{hash-that-changes-every-5-minutes}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

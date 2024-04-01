@@ -1,0 +1,10 @@
+
+Complete the following tasks to get the flag: 
+
+Your first location will be the base64 value of "secret".
+There, you will supply a Header
+    name: this CTF's name
+    value: SHA256 hash of the "Content-Type" header's value
+Once you got that, submit a query
+    parameter: "flag"
+    value: ask for it nicely
