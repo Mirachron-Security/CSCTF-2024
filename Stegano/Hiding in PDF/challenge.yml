@@ -1,0 +1,50 @@
+name: "Hiding in PDF"
+author: "Marin Radu"
+category: "Stegano"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I sent this PDF to all my friends and none of them found the hidden message! <br>
+  The tool I used hides and locks pages with a single click, and I love it. 
+
+  Are you up for the challenge? <br>
+  Can you discover the <i>page lock</i>ed and get the flag?
+
+  By the way, default passwords don't really protect anything.
+  
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/How_to_win_a_CTF_competition_for_real.pdf
+
+flags:
+  - CSCTF{w1ll_y0u_3v3r_f1nd_m3?}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

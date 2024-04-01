@@ -1,0 +1,46 @@
+name: "Frequencies"
+author: "Marin Radu"
+category: "Stegano"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  <br>
+  
+  Are you on the same frequency as me? <br>
+  Analyze the visual representation of this signal and find out.
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+
+  <br>
+
+flags:
+  - CSCTF{simple_spectrogram}
+
+tags:
+  - easy
+
+state: visible
+
+files:
+  - files/overlap.wav
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

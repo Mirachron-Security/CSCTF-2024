@@ -1,0 +1,48 @@
+name: "Elite 2"
+author: "Marin Radu"
+category: "Rev"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Figure out the correct input. <br>
+  Once you find it, insert it into the flag format.
+
+  Yes, this one is harder than `Elite 1`. <br>
+  Be careful with the numbers' format.
+
+  <br>
+
+  Flag format: **`CSCTF{input}`**
+  
+  <br>
+
+files:
+  - files/vuln
+
+flags:
+  - CSCTF{0x490c23c0}
+
+tags:
+  - hard
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

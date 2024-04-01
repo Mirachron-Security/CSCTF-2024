@@ -1,0 +1,46 @@
+name: "Source"
+author: "Marin Radu"
+category: "Rev"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  If you want to solve the problem, you must address the source. 
+  Or maybe not. Who knows? <br>
+  How small is too small? You tell me. 
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/vuln
+
+flags:
+  - CSCTF{couldn't_think_of_a_cool_flag_so_there_you_go}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

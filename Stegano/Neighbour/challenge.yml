@@ -1,0 +1,46 @@
+name: "Neighbor"
+author: "Marin Radu"
+category: "Stegano"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Look at the pixels, chico... they never lie. <br>
+  Examine each one closely, noting their simplicity and differences. 
+  Imagine exploring them side by side, observing the contrast they create!"
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+files:
+  - files/out.png
+
+flags:
+  - CSCTF{an07h3r_3mp7y_1m4g3}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

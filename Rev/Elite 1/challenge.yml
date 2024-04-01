@@ -1,0 +1,45 @@
+name: "Elite 1"
+author: "Marin Radu"
+category: "Rev"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Figure out the correct input. <br>
+  Once you find it, insert it into the flag format.
+
+  <br>
+
+  Flag format: **`CSCTF{input}`**
+  
+  <br>
+
+files:
+  - files/vuln
+
+flags:
+  - CSCTF{1337}
+
+tags:
+  - medium
+
+state: visible
+
+attempts: 10
+
+# topics:
+#   - 
+#   - 
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

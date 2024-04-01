@@ -1,0 +1,51 @@
+name: "Call me"
+author: "Marin Radu"
+category: "Stegano"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Please call me immediately, we need to talk. <br>
+  I think someone is listening to our conversations. 
+
+  I will send you this *inoffensive* file, totally *unrelated*. <br>
+  See the following *unrelated* information, just in case you might need it.
+
+  Note: <br>
+  Arrange the words appropriately to form a sentence. <br>
+  Replace spaces with underscores.
+
+  Might be worth checking <a href="https://dcode.fr" target="_blank">this site</a>.
+  
+  <br>
+
+  Flag format: **`CSCTF{A_message}`**
+  
+  <br>
+
+files:
+  - files/code.jpg
+
+flags:
+    - {
+      type: "static",
+      content: "CSCTF{I_tapped_your_phone}",
+      data: "case_insensitive",
+    }
+
+tags:
+  - medium
+
+state: visible
+
+# attempts: 10
+
+# topics:
+#   - 
+#   - 
