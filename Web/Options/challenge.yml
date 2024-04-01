@@ -1,0 +1,48 @@
+name: "Options"
+author: "Marin Radu"
+category: "Web"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  The more options you have, the further you will go. <br>
+  Are you up for a challenge? Don't be a fool! Find the flag in less than 5 minutes.
+
+  Check out the server here: <br>
+  > http://chal.chronossec.site:30160
+  <!-- > http://challenge.chronossec.site:30160 -->  
+  
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{OPTIONS_Wil1_seT_Y0u_fr33}
+
+tags:
+  - easy
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

@@ -1,0 +1,54 @@
+name: "Cerealized"
+author: "Marin Radu"
+category: "Web"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Yummy! Pickles instead of cereals! I hope you like this python application.
+
+  I cerealized the pickles and now everyone says I'm crazy... 
+
+  What? You haven't even tried them and already hate them. Just give it a try! 
+  Also, if you want to get the flag, you should know it is just an environment variable: <br> 
+  > `flag = os.environ.get('FLAG')`
+
+  Connect to my server here: <br>
+
+  > http://chal.chronossec.site:30150
+  <!-- > http://challenge.chronossec.site:30150 -->  
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{3xeCUTE_c0mm@nds_w1th_dec3r32lized_PIckles}
+
+tags:
+  - medium
+
+state: visible
+
+attempts: 10
+
+# files:
+#   - files/*
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

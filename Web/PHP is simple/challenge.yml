@@ -1,0 +1,53 @@
+name: "PHP is simple"
+author: "Cujbă Mihai"
+category: "Web"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"">Author: Cujba Mihai</a></strong></p>
+
+  Set your variables, unpack, serialize, and send! <br>
+  PHP is really easy, I swear!
+
+  Connect to my server: <br>
+  > http://chal.chronossec.site:30230
+  <!-- > http://challenge.chronossec.site:30230 -->  
+  
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+  Kudos to <a href=https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"><b>Cujba Mihai</b></a> for the amazing challenge! 
+  This exercise was used in <a href=https://learn-it.org/ target="_blank"><b>his learning platform</b></a>. Enjoy!  
+
+  <br>
+
+flags:
+  - CSCTF{PHP_serialize_and_pack_your_numbers}
+
+tags:
+  - medium
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

@@ -1,0 +1,46 @@
+name: "Simple upload"
+author: "Marin Radu"
+category: "Web"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  Upload your own **non-malicious** file, find where it is uploaded, then casually read some files.
+  
+  Just connect to my server: <br>
+  > http://chal.chronossec.site:30240
+  <!-- > http://challenge.chronossec.site:30240 -->  
+
+  <br>
+
+  Dynamic flag ahead! View more <a href="https://ctf.chronossec.site/dynamic_flags" target="_blank"><b>here</b></a>.<br>
+  Flag format: **`CSCTF{hash}`**
+  
+  <br>
+
+flags:
+  - CSCTF{flag-that-changes-every-5-minutes}
+
+tags:
+  - medium
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

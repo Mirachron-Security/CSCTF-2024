@@ -1,0 +1,46 @@
+name: "DB"
+author: "Marin Radu"
+category: "Windows"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  <br>
+
+  Lucky me... I've just extracted this database from an unknowing user. <br>
+  I wonder if it contains anything interesting.
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+flags:
+  - CSCTF{i_know_you_will_find_me}
+
+tags:
+  - easy
+
+state: visible
+
+files:
+  - files/backup.mdb
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

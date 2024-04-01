@@ -1,0 +1,52 @@
+name: "Basics 1"
+author: "Cujbă Mihai"
+category: "Web"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank">Author: Cujba Mihai</a></strong></p>
+
+  I hid the password. You can't get it. That's it. <br>
+  Don't trust me? See for yourself:
+
+  > http://chal.chronossec.site:30110
+  <!-- > http://challenge.chronossec.site:30110 -->  
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+  Kudos to <a href=https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"><b>Cujba Mihai</b></a> for the amazing challenge! 
+  This exercise was used in <a href=https://learn-it.org/ target="_blank"><b>his learning platform</b></a>. Enjoy!
+
+  <br>
+
+flags:
+  - CSCTF{bAs1c_P@ssw0rdS}
+
+tags:
+  - easy
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

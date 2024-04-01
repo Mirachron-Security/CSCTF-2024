@@ -1,0 +1,57 @@
+name: "Basics 2"
+author: "Cujbă Mihai"
+category: "Web"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"">Author: Cujba Mihai</a></strong></p>
+
+  You need to buy another device to get in. <br>
+  Don't trust me? See for yourself:
+
+  > http://chal.chronossec.site:30120
+  <!-- > http://challenge.chronossec.site:30120 -->
+
+  <br>
+
+  Note: some websites look at the device you access them from. 
+  Do whatever you want with this information. [!!](https://explore.whatismybrowser.com)
+
+  <br>
+
+  Flag format: **`CSCTF{message}`**
+  
+  <br>
+
+  Kudos to <a href=https://www.linkedin.com/in/mihai-cujb%C4%83-109b8a72/ target="_blank"><b>Cujba Mihai</b></a> for the amazing challenge! 
+  This exercise was used in <a href=https://learn-it.org/ target="_blank"><b>his learning platform</b></a>. Enjoy!
+
+  <br>
+
+flags:
+  - CSCTF{UserAgent_whitelist}
+
+tags:
+  - easy
+
+state: visible
+
+# files:
+#   - files/*
+
+# attempts: 10
+
+# hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+
+# topics:
+#   - 
+#   - 

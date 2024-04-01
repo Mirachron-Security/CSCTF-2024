@@ -1,0 +1,53 @@
+name: "Proxy man"
+author: "Marin Radu"
+category: "Web"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  A proxy may refer to a person who is authorized to act for another 
+  or it may designate the function or authority of serving in another's stead. 
+  In the latter sense, it generally is preceded by the word "by" ("vote by proxy").
+
+  Do you think we need some kind of proxy in web exploitation? <br>
+  Answer: We definitely do! <br>
+  Why? To analyze data that is sent and received, to modify it, and more!
+
+  If you think you are up for the challenge, check out my server. You might even find a flag! <br>
+  > http://chal.chronossec.site:30170
+  <!-- > http://challenge.chronossec.site:30170 -->  
+
+  <br>
+
+  Dynamic flag ahead! View more <a href="https://ctf.chronossec.site/dynamic_flags" target="_blank"><b>here</b></a>.<br>
+  Flag format: **`CSCTF{hash}`**
+  
+  <br>
+
+flags:
+  - CSCTF{hash-that-changes-every-5-minutes}
+
+tags:
+  - easy
+
+state: visible
+
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free

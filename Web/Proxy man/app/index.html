@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Proxy man</title>
+<style>
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  }
+  
+  .random-text {
+    max-width: 80%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .letter {
+    position: absolute;
+    font-size: 24px;
+    color: #ffffff;
+    opacity: 0.8;
+  }
+</style>
+</head>
+<body>
+
+<div class="random-text">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan, justo eget consectetur volutpat, felis nisl bibendum erat, vel vestibulum libero turpis non orci.</p>
+  <p>Vivamus ullamcorper, orci nec tincidunt auctor, turpis odio mattis erat, eget dignissim ante orci at purus. Fusce euismod pharetra turpis, vel bibendum purus vulputate id.</p>
+  <p>Nullam auctor justo ut lectus volutpat laoreet. Curabitur varius ut odio sit amet cursus. Maecenas tristique risus in justo aliquet, at iaculis dolor fringilla.</p>
+  <p>Etiam id purus in libero sollicitudin pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec blandit aliquam bibendum.</p>
+
+
+<script>
+  const letters = []; 
+
+  function animateLetter(index) {
+    if (index >= letters.length) {
+      return; 
+    }
+
+    const letterElement = document.createElement('div');
+    letterElement.innerText = letters[index];
+    letterElement.classList.add('letter');
+    document.body.appendChild(letterElement);
+
+    const x = Math.random() * (window.innerWidth - 30);
+    const y = Math.random() * (window.innerHeight - 30);
+
+    letterElement.style.left = `${x}px`;
+    letterElement.style.top = `${y}px`;
+
+    setTimeout(() => {
+      letterElement.style.transition = 'opacity 0.2s ease';
+      letterElement.style.opacity = 1;
+
+      setTimeout(() => {
+        letterElement.style.opacity = 0;
+        setTimeout(() => {
+          document.body.removeChild(letterElement);
+          animateLetter(index + 1); // Move to the next letter
+        }, 100); // Milliseconds to fade out
+      }, 100); // Milliseconds to stay visible
+    }, 100); // Milliseconds before displaying
+  }
+
+  function fetchFlag() {
+      fetch('generate_flag.php?generate_flag=true') // Include the query parameter
+          .then(response => response.json()) // Parse JSON response
+          .then(data => {
+              letters.length = 0;
+              letters.push(...data.flag.split(''));
+              animateLetter(0);
+          })
+          .catch(error => console.error('Error fetching flag:', error));
+  }
+
+
+  fetchFlag();
+  setInterval(fetchFlag, 60000); // Fetch every 60 seconds
+</script>
+</body>
+</html>
