@@ -1,0 +1,67 @@
+name: "Wi-Fi"
+author: "Marin Radu"
+category: "Windows"
+
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+description: |
+  <p align="center"><strong><a href="https://www.linkedin.com/in/radumarin001/" target="_blank">Author: Marin Radu</a></strong></p>
+
+  I will show you 2 ways to view stored Wi-Fi passwords.<br>
+  (As long as you didn't delete them)
+
+  **There are 2 ways to see stored Wi-Fi passwords**.
+
+  **The first one** involves browsing your Windows file system. <br>
+  - Go to `C:\ProgramData\Microsoft\Wlansvc\Profiles\Interfaces`
+  - Choose one of the Wi-Fi interfaces
+  - Select one of the network files
+  - Now decode the string between the `<hex>` elements
+  - This is your plaintext password
+
+  <br>
+
+  **The second one** requires a few Batch commands. <br> 
+  - Open Windows Command Prompt (WIN+R, type `cmd`)
+  - Type `wlan show profiles` and select a profile;
+  - Now retrieve the associated password: `wlan show profile "Profile_name" key=clear`;
+
+  <br>
+
+  I created some scripts and executables on my GitHub profile
+  that will let you see **all** Wi-Fi passwords. (For both Windows and Unix OS). 
+  Just find <a href="https://github.com/ChronosPK" target="_blank"><u>the right repo</u></a> and download them.
+
+  BTW, the flag is the name of the last wireless network in the image I used for the Windows demo.
+
+  <br>
+
+  Flag format: **`CSCTF{network_name}`**
+  
+  <br>
+
+
+flags:
+  - CSCTF{TP-Link_6C58_5G}
+
+tags:
+  - easy
+
+state: visible
+
+# topics:
+#   - 
+#   - 
+
+# attempts: 10
+
+#hints:
+#  - {
+#        content: "",
+#        cost: 10
+#    }
+#    - This hint is free
