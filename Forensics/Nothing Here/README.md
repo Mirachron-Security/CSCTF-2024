@@ -24,13 +24,16 @@ We use the `oletools` suite to get a summary of what to expect from the document
 sudo -H pip install -U oletools
 ```
 <br>
-The challenge involves several steps to clean and analyze the obfuscated VBA code:
+The challenge involves several steps to clean and analyze the obfuscated VBA code: <br>
+
 1. Use `oletools` for a preliminary analysis of the document.
 ```bash
 oleid Nothing\ here.doc
 ```
 
 <img src="./solve/oleid.jpg" width="500">
+
+<br>
 
 2. Extract the VBA code, removing any irrelevant IOC (Indicators of Compromise) information.
 ```bash
