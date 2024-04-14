@@ -19,7 +19,8 @@ Find the tool for the job. An application can let you lock and unlock PDF pages.
 ## Solve
 Use [this tool](https://pdfpagelock.com/) to unlock the hidden page and view the flag.
 
-Take a look at the original file: <a href="./create/How to win a CTF competition.docx" target="_blank">"How to win a CTF competition.docx"</a>.
+Take a look at the original file: <a href="./create/How to win a CTF competition.docx" target="_blank">"How to win a CTF competition.docx"</a>. <br>
+Default password? `password`!
 
 <br>
 
