@@ -1,5 +1,0 @@
-kali:$y$j9T$YdkLB83weM95fvYa$1fGf.vGynX2jtbqIaGVuhudr6.WzyfZiu1e8wMLAbR6:1001:1001::/home/kali:/bin/bash
-user:$y$j9T$q7x0NNuPDQ2WP29o$Xc7bU7YXrn6ovPba08TebZVlbKG0C9BWL9vM/AH9EG4:1001:1001::/home/user:/bin/bash
-robert:$y$j9T$Ej5c5g1PvOLJ1HrP$TiALVpLTOf8ynaSvXrNjRjjxQB.QAxjzTX6UD98H6G7:1001:1001::/home/robert:/bin/bash
-chronos:$y$j9T$0vpAwONKHfpyOiRi$3gkMM314Es.MoYPjBAhNwwA/UBJPfqH3LxCsJ/AwRT5:1001:1001::/home/chronos:/bin/bash
-knight:$y$j9T$nnkbL3RBnFoHIkPu$yq.cUuL8ArTLZWKdllEsWBrWgGRQU.uh4Pncuaj8vi8:1001:1001::/home/knight:/bin/bash
