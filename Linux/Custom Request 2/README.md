@@ -1,6 +1,3 @@
-
-**Custom Request 2:**
-```markdown
 # Custom Request 2
 Author: [Marin Radu](https://github.com/ChronosPK)
 
