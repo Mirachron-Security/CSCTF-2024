@@ -5,6 +5,16 @@
 <br>
 <br>
 
+<table border="0">
+  <tr>
+    <td><img src="Images/scoreboard-civilian.png" alt="1" height="500"/></td>
+    <td><img src="Images/scoreboard-military.png" alt="6" height="500"/></td>
+  </tr>
+</table>
+
+<br>
+<br>
+
 | Category | Name | Points | Solves | Difficulty |
 |---|---|---|---|---|
 | Crypto | <a href="./Crypto/3.146416102">3.146416102</a> | 426 | 9 | hard |
